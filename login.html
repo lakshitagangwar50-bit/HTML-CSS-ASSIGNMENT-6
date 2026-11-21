@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login - Flexbox</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+  body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#e6efff;
+  }
+  .login-box{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 4px 15px #ccc;
+    width:320px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+  }
+  h2{color:#0b2e6e;text-align:center}
+  input{padding:11px;border:1px solid #ccc;border-radius:8px}
+  button{background:#0b2e6e;color:white;border:none;padding:12px;border-radius:8px;font-size:16px;cursor:pointer}
+</style>
+</head>
+<body>
+  <div class="login-box">
+    <h2>Login</h2>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button>Login</button>
+    <p style="text-align:center;font-size:14px;">Don't have account? <a href="#">Sign Up</a></p>
+  </div>
+</body>
+</html>

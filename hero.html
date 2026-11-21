@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Navbar + Hero - Flexbox</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+  .navbar{
+    background:#0b2e6e;color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+  }
+  .navbar ul{display:flex;gap:25px;list-style:none}
+  .navbar a{color:white;text-decoration:none;font-weight:bold}
+  .hero{
+    height:80vh;
+    background:#e6efff;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    text-align:center;
+    padding:20px;
+  }
+  .hero h1{font-size:42px;color:#0b2e6e}
+  .hero button{background:#0b2e6e;color:white;border:none;padding:12px 28px;border-radius:25px;font-size:16px;cursor:pointer}
+</style>
+</head>
+<body>
+  <div class="navbar">
+    <div style="font-size:22px;font-weight:bold;">Bright Future</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Courses</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <div class="hero">
+    <h1>Build Your Bright Future With Us</h1>
+    <p>Quality Education, Expert Teachers and Better Learning For Every Student</p>
+    <button>Enroll Now</button>
+  </div>
+</body>
+</html>
